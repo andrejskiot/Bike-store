@@ -1,0 +1,254 @@
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+$font-family: "Montserrat", sans-serif;
+
+$display: flex;
+$justify-content-around: space;
+$align-items: center;
+$white-color: #fff;
+$border-pink: 2px solid #ff6969;
+$border-none: none;
+$justify-content-center: center;
+$grey-color: rgb(112, 112, 112);
+
+$display-none: none;
+
+// Container
+$margin-top: 3%;
+
+// logoImg
+$logo-width: 130px;
+$logo-height: 80px;
+
+// navbarDiv
+$padding-top: 4%;
+
+// iconsNavbar
+$margin-left-icons: 25%;
+$inner-color: #ff6969;
+$icons-size: 23px;
+
+// navbarTitle
+$font-size: 30px;
+
+// Card title
+$font-weight: bold;
+$letter-spacing: 3px;
+
+// grid-card-div {
+$grid-background-color: 2px solid rgb(112, 112, 112);
+$position: relative;
+$transition: all 0.6s ease;
+
+// grid-card-div hover
+$transform: scale(1.1);
+$cursor: pointer;
+
+// icons-navbar transition
+$transition-icons: all 0.3s ease;
+
+// icons-navbar transform
+$transform-icons: scale(1.3);
+
+// Card-img-div
+$display-flex: flex;
+$padding-img-div: 8%;
+
+// Card-img-div img
+$img-size: 150px;
+
+// Card-body-div
+$padding-top-body: 4%;
+$background-color: rgb(112, 112, 112);
+$color: white;
+
+// Active class
+$pink-color: #ff6969;
+
+// Search input
+
+$width-input: 90%;
+$padding-input: 2.2%;
+
+// Action button Div
+
+$margin-bottom-action: 3%;
+
+// submit-btn
+
+$padding-submit: 4%;
+$border-radius-btn: 3px;
+
+// submit-btn-sort
+
+$background-color-submit-sort: transparent;
+
+// Filter by
+
+$font-size-filter: 20px;
+
+// sort-price div
+$select-width: 90%;
+$height-select: 100%;
+
+// select-option
+$margin-left: 3%;
+$width-option: 60%;
+
+
+
+.filterBy {
+  font-size: $font-size-filter;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+  color: $grey-color;
+}
+
+.sort-price {
+  display: $display-flex;
+  align-items: $align-items;
+}
+
+.inner-select-div {
+  width: $select-width;
+  height: $height-select;
+  display: $display-flex;
+  align-items: $align-items;
+}
+
+#bikes {
+  margin-left: $margin-left;
+  width: $width-option;
+  height: $height-select;
+  border-radius: $border-radius-btn;
+}
+
+
+
+.gender-brand {
+  font-size: $font-size-filter;
+  font-weight: $font-weight;
+  color: $grey-color;
+}
+
+.container-top {
+  margin-top: $margin-top;
+}
+
+.search-input {
+  width: $width-input;
+  padding: $padding-input;
+  font-family: $font-family;
+}
+
+.filter-hover:hover {
+  cursor: $cursor;
+}
+
+.submit-btn {
+  width: $width-input;
+  color: $white-color;
+  background-color: $pink-color;
+  border: $border-pink;
+  padding: $padding-submit;
+  border-radius: $border-radius-btn;
+  font-family: $font-family;
+}
+
+.active-price {
+  width: $width-input;
+  color: $white-color;
+  background-color: $pink-color;
+  border: $border-pink;
+  padding: $padding-submit;
+  border-radius: $border-radius-btn;
+}
+
+.submit-btn-sort {
+  width: $width-input;
+  color: $inner-color;
+  padding: $padding-submit;
+  border: $border-pink;
+  background-color: $background-color-submit-sort;
+  border-radius: $border-radius-btn;
+  font-family: $font-family;
+}
+
+.submit-btn-sort:hover {
+  color: $white-color;
+  background-color: $inner-color;
+  cursor: $cursor
+}
+
+.actionButtonDiv {
+  margin-bottom: $margin-bottom-action;
+}
+.none {
+  display: $display-none;
+}
+.active {
+  color: $pink-color;
+  font-weight: $font-weight;
+}
+
+.logoImg {
+  width: $logo-width;
+  height: $logo-height;
+}
+
+.navbarDiv {
+  display: $display;
+  align-items: $align-items;
+  justify-content: $justify-content-around;
+  padding-top: $padding-top;
+}
+
+.iconsNavbar {
+  margin-left: $margin-left-icons;
+  color: $inner-color;
+  font-size: $icons-size;
+  position: $position;
+  transition: $transition-icons;
+}
+
+.iconsNavbar:hover {
+  transform: $transform-icons;
+  cursor: $cursor;
+}
+
+.iconsDiv {
+  display: $display;
+  justify-content: $justify-content-around;
+}
+
+.navbarTitle {
+  font-size: $font-size;
+}
+
+.grid-card-div {
+  border: $grid-background-color;
+  border-radius: $border-radius-btn;
+}
+
+.card-img-div {
+  display: $display-flex;
+  justify-content: $justify-content-center;
+  padding: $padding-img-div;
+  
+}
+.card-img-div img {
+  height: $img-size;
+}
+.card-body-div {
+  padding: $padding-top-body;
+  background-color: $background-color;
+  color: $color;
+}
+
+.card-title {
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+}
